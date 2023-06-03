@@ -1,27 +1,58 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+html, body {
+  background: rgb(202, 194, 194);
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-bottom: 0px;
+}
+
+.left-side {
+  width: 25%;
+  height: auto;
+  background: #0a6d7a;
+  color: aliceblue;
+}
+
+
+.right-side {
+  padding: 3% 0 2% 3%;
+  width: 75%;
+  background: rgb(202, 194, 194);
+  color:black;
+}
+
+.footer {
+  padding: 0;
+  text-align: center;
+  margin-top: auto;
+  height: 30px;
+  background-color: #333;
+  color: #f2f2f2;
+  padding:0;
+}
+
+.p-footer{
+  padding: 0;
+  margin: 0;
+} 
+
+.foto-e-name{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; 
+}
+.minha-foto{
+  border-radius: 50%;
+  width: 150px; 
+  padding-top: 8%;
+}
+#title{
+    padding-bottom: 15%;        
   }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
