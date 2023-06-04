@@ -7,13 +7,11 @@ html, body {
 
 .container {
   display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  padding-bottom: 0px;
 }
 
-.left-side {
+.left-side {  
   width: 25%;
+  padding: 3%;
   height: auto;
   background: #0a6d7a;
   color: aliceblue;

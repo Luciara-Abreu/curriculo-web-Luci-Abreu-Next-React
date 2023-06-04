@@ -5,12 +5,11 @@ import Contacts from "@/components/contacts/Contacts"
 import Experiences from "@/components/experiences/Experiences";
 import Courses from "@/components/courses/Courses";
 import NameImage from "@/components/name-image/NameImage";
+import Footer from "@/components/footer/Footer";
 
 export default function Home() {
   return (
-    <div className="container-page">
-      <h1>Portifólio Luci Abreu - Next - React</h1>
-
+    <div className="container">
       <div className="left-side">
         <NameImage />
         <Graduation />
@@ -23,6 +22,7 @@ export default function Home() {
         <Experiences/>
         <Courses/>
       </div>
+      <Footer/>
     </div>
   )
 }
