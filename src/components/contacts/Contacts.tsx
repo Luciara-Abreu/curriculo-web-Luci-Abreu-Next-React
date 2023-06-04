@@ -1,15 +1,15 @@
+import Image from 'next/image'
 import { Container, ImageContainer } from "./style"
-import Image, { ImageProps } from 'next/image';
-import handshake from '../../assets/gifs/handshake.gif'
 
 function Contacts() {
   return (
     <Container>
       <article className="aritle-contat">
+
         <ImageContainer>
-          <div src={handshake} />
+          <Image src="../../assets/gifs/handshake.gif" alt="Handshake" />
         </ImageContainer>
-        <img />
+
         <p className="p-contact">CONTATO</p>
         <span className="linha-horizontal"></span>
       </article>
