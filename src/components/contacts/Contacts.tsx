@@ -4,12 +4,10 @@ import { Container, ImageContainer } from "./style"
 function Contacts() {
   return (
     <Container>
+      <Image src="/images/gifs/handshake.gif" alt="Handshake" width={50} height={50} />
       <article className="aritle-contat">
-
         <ImageContainer>
-          <Image src="../../assets/gifs/handshake.gif" alt="Handshake" />
         </ImageContainer>
-
         <p className="p-contact">CONTATO</p>
         <span className="linha-horizontal"></span>
       </article>
