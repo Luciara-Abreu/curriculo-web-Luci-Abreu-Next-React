@@ -19,7 +19,7 @@ const Title = styled.div`
 `
 
 const Skill = styled.div`
-  width: 60%;
+  width: 70%;
   height: 10px;
   background-color: #f2f2f2;
   border-radius: 5px;
