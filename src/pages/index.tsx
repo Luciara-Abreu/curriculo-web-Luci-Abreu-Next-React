@@ -6,23 +6,27 @@ import Experiences from "@/components/experiences/Experiences";
 import Courses from "@/components/courses/Courses";
 import NameImage from "@/components/name-image/NameImage";
 import Footer from "@/components/footer/Footer";
+import { Body, Container, LeftSide, RightSide } from "@/styles/styles";
 
 export default function Home() {
   return (
-    <div className="container">
-      <div className="left-side">
-        <NameImage />
-        <Graduation />
-        <Profile />
-        <Skills />
-        <Contacts />
-      </div>
+    <Container>      
+      <Body>
+        <LeftSide>
+          <NameImage />
+          <Graduation />
+          <Profile />
+          <Skills />
+          <Contacts />
+        </LeftSide>
 
-      <div className="right-side">
-        <Experiences/>
-        <Courses/>
-      </div>
-      <Footer/>
-    </div>
+        <RightSide>
+          <Experiences />
+          <Courses />
+        </RightSide>
+      </Body>
+
+      <Footer />
+    </Container>
   )
 }

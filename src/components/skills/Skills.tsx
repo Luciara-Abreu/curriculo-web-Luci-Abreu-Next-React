@@ -1,102 +1,164 @@
+import { ContainerComponent, HorizontalLine, ImageContainer } from "@/styles/styles"
+import Image from 'next/image'
+import { ContainerSkill, Progress, Skill, Title } from "./styles"
 
 function Skills() {
   return (
-    <div>
-      <li>HTML</li>
-      <div className="skill">
-        <div className="skill-progress"></div>
-      </div>
+    <ContainerComponent>
+      <ImageContainer>
+        <Image src="/images/gifs/pyramid.gif" className="image-container" alt="Imagem ilustrativa de um arquivo" width={50} height={50} />
+        <p className="p-subtitle">SKILLS</p>
+        <HorizontalLine />
+      </ImageContainer>
 
-      <li>CSS</li>
-      <div className="skill">
-        <div className="skill-progress"></div>
-      </div>
+      <ContainerSkill>
+        <Title>HTML</Title>
+        <Skill>
+          <Progress progress={70}></Progress>
+        </Skill>
+      </ContainerSkill>
 
-      <li>JavaScript</li>
-      <div className="skill">
-        <div className="skill-progress"></div>
-      </div>
+      <ContainerSkill>
+        <Title>CSS</Title>
+        <Skill>
+          <Progress progress={75} ></Progress>
+        </Skill>
+      </ContainerSkill>
 
-      <li>TypeScript</li>
-          <div className="skill">
-            <div className="skill-progress"></div>
-          </div>
+      <ContainerSkill>
+        <Title>JavaScript</Title>
+        <Skill>
+          <Progress progress={85} ></Progress>
+        </Skill>
+      </ContainerSkill>
 
-          <li>Node</li>
-          <div className="skill">
-            <div className="skill-progress"></div>
-          </div>
+      <ContainerSkill>
+        <Title>TypeScript</Title>
+        <Skill>
+          <Progress progress={80} ></Progress>
+        </Skill>
+      </ContainerSkill>
 
-          <li>SQL / PLSQL</li>
-          <div className="skill">
-            <div className="skill-progress"></div>
-          </div>
+      <ContainerSkill>
+        <Title>Node</Title>
+        <Skill>
+          <Progress progress={75} ></Progress>
+        </Skill>
+      </ContainerSkill>
 
-          <li>Postgres</li>
-          <div className="skill">
-            <div className="skill-progress"></div>
-          </div>
+      <ContainerSkill>
+        <Title>SQL / PLSQL</Title>
+        <Skill>
+          <Progress progress={60} ></Progress>
+        </Skill>
+      </ContainerSkill>
 
-          <li>MongoDB</li>
-          <div className="skill">
-            <div className="skill-progress"></div>
-          </div>
+      <ContainerSkill>
+        <Title>Postgres</Title>
+        <Skill>
+          <Progress progress={65} ></Progress>
+        </Skill>
+      </ContainerSkill>
 
-          <li>MySQL</li>
-          <div className="skill">
-            <div className="skill-progress"></div>
-          </div>
+      <ContainerSkill>
+        <Title>MongoDB</Title>
+        <Skill>
+          <Progress progress={66} ></Progress>
+        </Skill>
+      </ContainerSkill>
 
-          <li>JAVA</li>
-          <div className="skill">
-            <div className="skill-progress"></div>
-          </div>
+      <ContainerSkill>
+        <Title>MySQL</Title>
+        <Skill>
+          <Progress progress={55} ></Progress>
+        </Skill>
+      </ContainerSkill>
 
-          <li>Python</li>
-          <div className="skill">
-            <div className="skill-progress"></div>
-          </div>
+      <ContainerSkill>
+        <Title>Next 2023</Title>
+        <Skill>
+          <Progress progress={30} ></Progress>
+        </Skill>
+      </ContainerSkill>
 
-          <li>PHP</li>
-          <div className="skill">
-            <div className="skill-progress"></div>
-          </div>
+      <ContainerSkill>
+        <Title>React</Title>
+        <Skill>
+          <Progress progress={40} ></Progress>
+        </Skill>
+      </ContainerSkill>
 
-          <li>Oracle</li>
-          <div className="skill">
-            <div className="skill-progress"></div>
-          </div>
+      <ContainerSkill>
+        <Title>JAVA</Title>
+        <Skill>
+          <Progress progress={20} ></Progress>
+        </Skill>
+      </ContainerSkill>
 
-          <li>Firebase</li>
-          <div className="skill">
-            <div className="skill-progress"></div>
-          </div>
+      <ContainerSkill>
+        <Title>Python</Title>
+        <Skill>
+          <Progress progress={15} ></Progress>
+        </Skill>
+      </ContainerSkill>
 
-          <li>Excel</li>
-          <div className="skill">
-            <div className="skill-progress"></div>
-          </div>
+      <ContainerSkill>
+        <Title>PHP</Title>
+        <Skill>
+          <Progress progress={10} ></Progress>
+        </Skill>
+      </ContainerSkill>
 
-          <li>GIT</li>
-          <div className="skill">
-            <div className="skill-progress"></div>
-          </div>
+      <ContainerSkill>
+        <Title>Oracle</Title>
+        <Skill>
+          <Progress progress={13} ></Progress>
+        </Skill>
+      </ContainerSkill>
 
-          <li>Sequelize</li>
-          <div className="skill">
-            <div className="skill-progress"></div>
-          </div>
+      <ContainerSkill>
+        <Title>Firebase</Title>
+        <Skill>
+          <Progress progress={15} ></Progress>
+        </Skill>
+      </ContainerSkill>
 
-          <li>TypeOrm</li>
-          <div className="skill">
-            <div className="skill-progress"></div>
-          </div>
+      <ContainerSkill>
+        <Title>Excel</Title>
+        <Skill>
+          <Progress progress={80} ></Progress>
+        </Skill>
+      </ContainerSkill>
 
-          <li>Mongoose</li>
-          <div className="skill">
-            <div className="skill-progress"></div>
-          </div>
-    </div >
+      <ContainerSkill>
+        <Title>GIT</Title>
+        <Skill>
+          <Progress progress={70} ></Progress>
+        </Skill>
+      </ContainerSkill>
+
+      <ContainerSkill>
+        <Title>Sequepze</Title>
+        <Skill>
+          <Progress progress={40} ></Progress>
+        </Skill>
+      </ContainerSkill>
+
+      <ContainerSkill>
+        <Title>TypeOrm</Title>
+        <Skill>
+          <Progress progress={50} ></Progress>
+        </Skill>
+      </ContainerSkill>
+
+      <ContainerSkill>
+        <Title>Mongoose</Title>
+        <Skill>
+          <Progress progress={55} ></Progress>
+        </Skill>
+      </ContainerSkill>
+
+    </ContainerComponent>
   )
 }
 

@@ -1,47 +1,44 @@
 import Image from 'next/image'
-import { Container, ImageContainer } from "./style"
+import { ImageContainer, ContainerComponent, HorizontalLine} from '@/styles/styles'
+import { ContainerSection, ContainerLinks } from './styles'
 
 function Contacts() {
   return (
-    <Container>
-      <Image src="/images/gifs/handshake.gif" alt="Handshake" width={50} height={50} />
-      <article className="aritle-contat">
-        <ImageContainer>
-        </ImageContainer>
-        <p className="p-contact">CONTATO</p>
-        <span className="linha-horizontal"></span>
-      </article>
+    <ContainerComponent>
+      <ImageContainer>
+        <Image src="/images/gifs/handshake.gif" className="image-container" alt="Imagem ilustrativa de um arquivo" width={0} height={0} />
+        <p className="p-subtitle">CONTATO</p>
+        <HorizontalLine />
+      </ImageContainer>
 
-      <article className="article-links-contats">
-        <ul className="lista-contato">
-          <li className="li-fone">
-            <img src="assets/ringing.png" className="fone" />
-            <a href="tel:+5551984539391" className="a-fone" target="_blank">Telefone Luci Abreu</a>
-          </li>
+<ContainerSection>
+      <ContainerLinks>
+        <Image src="/images/ringing.png" className="fone" alt="imagem fone" width={50} height={50} />
+        <a href="tel:+5551984539391" className="a-fone" target="_blank">Telefone Luci Abreu</a>
+        </ContainerLinks>
 
-          <li className="li-whats">
-            <img src="assets/whatsapp.png" className="whatsapp" />
-            <a href="https://wa.me/5551984539391" className="a-whatsapp" target="_blank">WhatsApp Luci Abreu</a>
-          </li>
+        <ContainerLinks>
+        <Image src="/images/whatsapp.png" className="whatsapp" alt="imagem whatsapp" width={50} height={50} />
+        <a href="https://wa.me/5551984539391" className="a-whatsapp" target="_blank">WhatsApp Luci Abreu</a>
+        </ContainerLinks>
 
-          <li className="li-mail">
-            <img src="assets/envelope.png" className="email" />
-            <a href="mailto:luciara.abreu@gmail.com.com" className="a-email" target="_blank">E-mail Luci Abreu</a>
-          </li>
+        <ContainerLinks>
+        <Image src="/images/envelope.png" className="email" alt="imagem email" width={50} height={50} />
+        <a href="mailto:luciara.abreu@gmail.com.com" className="a-email" target="_blank">E-mail Luci Abreu</a>
+        </ContainerLinks>
 
-          <li className="li-git">
-            <img src="assets/github.png" className="git" />
-            <a href="https://github.com/Luciara-Abreu" className="a-git" target="_blank">Repositório Luci Abreu</a>
-          </li>
+        <ContainerLinks>
+        <Image src="/images/github.png" className="git" alt="imagem gitbub" width={50} height={50} />
+        <a href="https://github.com/Luciara-Abreu" className="a-git" target="_blank">Repositório Luci Abreu</a>
+        </ContainerLinks>
 
-          <li className="li-in">
-            <img src="assets/linkedin.png" className="In" />
-            <a href="https://www.linkedin.com/in/luciara-abreu/" className="a-In" target="_blank">LinkedIn Luci Abreu</a>
-          </li>
+        <ContainerLinks>
+        <Image src="/images/linkedin.png" className="In" alt="imagem LnkedIn" width={50} height={50} />
+        <a href="https://www.linkedin.com/in/luciara-abreu/" className="a-In" target="_blank">LinkedIn Luci Abreu</a>
+      </ContainerLinks>
 
-        </ul>
-      </article>
-    </Container>
+      </ContainerSection>
+    </ContainerComponent>
   )
 }
 

@@ -1,15 +1,12 @@
+import Image from 'next/image'
+import { Container } from './styles'
+
 function NameImage(){
-  const foto = "/src/assets/luciabreu.png"
   return(
-    <div>
-      <header className="foto-e-name">
-      <img src="/public/luciabreu.png" alt="Minha Imagem" />
+    <Container>
+      <Image src="/images/luciabreu.png" className="minha-foto" alt="Minha Imagem" width={150} height={150} />
         <h1 id="title">Luci Abreu</h1>
-        <div className="butterfly-container">
-          <div className="butterfly"></div>
-        </div>
-      </header>
-    </div>
+    </Container>
   )
 }
 export default NameImage
