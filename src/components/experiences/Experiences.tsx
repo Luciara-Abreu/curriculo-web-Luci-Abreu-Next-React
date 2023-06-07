@@ -1,15 +1,15 @@
-import { ContainerComponent, ImageContainer, HorizontalLine } from "@/styles/styles"
+import { ContainerComponent, ImageContainer, HorizontalLine, ImageContainerRight } from "@/styles/styles"
 import Image from 'next/image'
 import { ContaierExperience, Description, ExperienceLine } from "./styles"
 
 function Experiences() {
   return (
     <ContainerComponent>
-      <ImageContainer>
+      <ImageContainerRight>
         <Image src="/images/gifs/social-media.gif" className="image-container-Right" width={0} height={0} alt={"imagem-ilustrativa"} />
         <p className="p-subtitle">EXPERIÊNCIAS</p>
         <HorizontalLine />
-      </ImageContainer>
+      </ImageContainerRight>
 
 
       <ContaierExperience>

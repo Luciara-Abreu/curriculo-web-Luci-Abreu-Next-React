@@ -9,7 +9,7 @@ const Container = styled.div`
 
 const ContainerComponent = styled.div `
 margin: 0;
-padding-bottom: 10%;
+padding: 0;
 `
   
 const Body = styled.div`
@@ -34,7 +34,7 @@ const RightSide = styled.div`
   width: 75%;
   background: rgb(202, 194, 194);
   color:black;
-  padding: 3% 0 2% 3%;
+  padding: 3% 0 0 3%;
   
 `
 
@@ -80,6 +80,33 @@ const Footer = styled.div`
   }
   `
 
+
+const ImageContainerRight = styled.div`
+width: 100%;  
+margin: 0;  
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 2% 0 2% 0;
+
+.p-subtitle{
+padding: 5%;
+height: auto;
+font-size: 25px;
+font-weight: bold;
+}
+
+.image-container{
+  width: 15%;
+  height: 15%;
+}
+
+.image-container-Right{
+  width: 9%;
+  height: 9%;
+}
+`
+
   const HorizontalLine = styled.div`
       width: 71%; 
       float: right;
@@ -105,6 +132,7 @@ export {
   LeftSide,
   RightSide,
   Footer,
-  ImageContainer,  
+  ImageContainer, 
+  ImageContainerRight, 
   HorizontalLine
 }

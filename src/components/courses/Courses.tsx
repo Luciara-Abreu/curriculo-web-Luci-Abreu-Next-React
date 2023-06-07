@@ -1,4 +1,4 @@
-import { ContainerComponent, ImageContainer, HorizontalLine } from "@/styles/styles";
+import { ContainerComponent, ImageContainer, HorizontalLine, ImageContainerRight } from "@/styles/styles";
 import Image from 'next/image'
 import Carousel from "../carousel/Carousel";
 import SlidesCarousel from "./styles";
@@ -49,11 +49,11 @@ function Courses() {
 
   return (
     <ContainerComponent>
-      <ImageContainer>
+      <ImageContainerRight>
         <Image src="/images/gifs/flag.gif" className="image-container-Right" width={0} height={0} alt={"imagem-ilustrativa"} />
         <p className="p-subtitle">CURSOS COMPLEMENTARES</p>
         <HorizontalLine />
-      </ImageContainer>
+      </ImageContainerRight>
 
       <Carousel slides={slides} />
     </ContainerComponent>
