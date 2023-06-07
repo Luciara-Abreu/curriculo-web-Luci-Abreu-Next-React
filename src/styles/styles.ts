@@ -21,7 +21,7 @@ margin: 0;
 padding: 0;
 
 @media (max-width: 767px) {
-
+  margin-bottom: 10%;
   > p{
       font-size: 17px;
       margin: 0  0 2% 0;

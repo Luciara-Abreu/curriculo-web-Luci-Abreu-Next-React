@@ -26,6 +26,26 @@ const ContainerLinks = styled.div`
     margin: 0;
     padding: 5% 0 1% 0;
     }
+
+    @media (max-width: 767px) {
+      width: auto;
+      height: auto;
+      margin-bottom: 1%;
+      padding: 0;
+
+  .fone, .whatsapp, .email, .git, .In{
+    width: 10%; 
+    height: 5%; 
+    margin: 0;
+    padding: 4% 4% 0% 0%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+
+.fone:hover, .whatsapp:hover, .email:hover, .git:hover, .In:hover {
+  transform: scale(1.2) rotate(10deg)
+}
+    }
   `
 
   const ContainerSection = styled.div`
