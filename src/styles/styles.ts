@@ -2,16 +2,44 @@ import styled from 'styled-components';
 
 const Container = styled.div`
   background: rgb(202, 194, 194);
-  height: 100%;
+  width: auto;
+  height: auto;
   margin: 0;
   padding: 0;
-  `
 
-const ContainerComponent = styled.div `
+  @media (max-width: 767px) {
+    width: auto;
+    height: auto;
+    background: blue;
+  }
+`
+
+const ContainerComponent = styled.div`
+width: auto;
+height: auto;
 margin: 0;
 padding: 0;
+
+@media (max-width: 767px) {
+
+  > p{
+      font-size: 17px;
+      margin: 0  0 2% 0;
+    }
+  .section-text-graduation{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    > p{
+      font-size: 17px;
+      margin: 0  0 2% 0;
+    }
+  }
+}
 `
-  
+
 const Body = styled.div`
   width:100%;
   display: flex;
@@ -20,6 +48,8 @@ const Body = styled.div`
   padding-bottom: 0px;
 
   @media (max-width: 767px) {
+    width: auto;
+    height: auto;
     display: flex;
     flex-direction: column;
   }
@@ -34,7 +64,7 @@ const LeftSide = styled.div`
   font-size: 21px;
 
   @media (max-width: 767px) {
-    width: 100%;
+    width: auto;
     height: auto;
     padding: 0% 8% 0% 8%;
     font-size: 21px;
@@ -49,27 +79,14 @@ const RightSide = styled.div`
   padding: 3% 0 0 3%;
 
   @media (max-width: 767px) {
-    width: 100%;
+    width: auto;
     height: auto;
     padding: 0% 8% 0% 8%;
     font-size: 21px;
   }  
 `
 
-const Footer = styled.div`
-  padding: 0;
-  text-align: center;
-  height: 30px;
-  background-color: #333;
-  color: #f2f2f2;
-
-.p-footer{
-  padding: 0;
-  margin: 0;
-} 
-`
-
-  const ImageContainer = styled.div`
+const ImageContainer = styled.div`
   width: 100%;  
   margin: 0;  
   display: flex;
@@ -93,6 +110,30 @@ const Footer = styled.div`
   .image-container-Right{
     width: 9%;
     height: 9%;
+  }
+
+  @media (max-width: 767px) {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+
+    .p-subtitle{
+    padding: 5%;
+    height: auto;
+    font-size: 15px;
+    font-weight: bold;
+}
+.image-container{
+    width: 15%;
+    height: 15%;
+}
+
+.image-container-Right{
+  width: 15%;
+  height: 15%;
+}
   }
   `
 
@@ -121,9 +162,34 @@ font-weight: bold;
   width: 9%;
   height: 9%;
 }
+
+@media (max-width: 767px) {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin-top: 10%;
+
+    .p-subtitle{
+padding: 5%;
+height: auto;
+font-size: 15px;
+font-weight: bold;
+}
+.image-container{
+  width: 10%;
+  height: 10%;
+}
+
+.image-container-Right{
+  width: 15%;
+  height: 15%;
+}
+  }   
 `
 
-  const HorizontalLine = styled.div`
+const HorizontalLine = styled.div`
       width: 71%; 
       float: right;
       margin: 0;
@@ -150,8 +216,7 @@ export {
   Body,
   LeftSide,
   RightSide,
-  Footer,
-  ImageContainer, 
-  ImageContainerRight, 
+  ImageContainer,
+  ImageContainerRight,
   HorizontalLine
 }

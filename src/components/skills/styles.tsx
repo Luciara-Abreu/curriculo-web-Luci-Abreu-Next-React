@@ -11,11 +11,24 @@ display: flex;
 align-items: center;
 padding: 0;
 margin: 0;
+
+@media (max-width: 767px) {
+width: 100%;
+display: flex;
+justify-content: space-between;
+padding: 0;
+margin: 0;
+}
 `
 
 const Title = styled.div`
     width: 30%;
     font-size: 20px;
+
+  @media (max-width: 767px) {
+  width: auto;
+  font-size: 15px;
+}
 `
 
 const Skill = styled.div`
@@ -24,6 +37,10 @@ const Skill = styled.div`
   background-color: #f2f2f2;
   border-radius: 5px;
   overflow: hidden;
+
+  @media (max-width: 767px) {
+    width: 50%;
+}
 `
 
 const ProgressContainer = styled.div`
