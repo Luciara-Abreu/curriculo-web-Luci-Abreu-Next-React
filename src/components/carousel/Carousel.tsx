@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { ContainerCarousel } from './styles';
 
 interface CarouselProps {
   slides: React.ReactNode[];
@@ -16,16 +17,16 @@ const Carousel: React.FC<CarouselProps> = ({ slides }) => {
   };
 
   return (
-    <div className="carousel">
+    <ContainerCarousel>
       <div className="slide">
         {slides[currentIndex]}
       </div>
 
       <div className="carousel-controls">
-        <button onClick={handlePrevSlide}>Previous</button>
-        <button onClick={handleNextSlide}>Next</button>
+        <button className="button" onClick={handlePrevSlide}>Voltar</button>
+        <button className="button" onClick={handleNextSlide}>Próximo</button>
       </div>
-    </div>
+    </ContainerCarousel>
   );
 };
 

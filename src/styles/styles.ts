@@ -54,7 +54,7 @@ const Footer = styled.div`
 `
 
   const ImageContainer = styled.div`
-  width: 111%;  
+  width: 100%;  
   margin: 0;  
   display: flex;
   justify-content: space-between;
