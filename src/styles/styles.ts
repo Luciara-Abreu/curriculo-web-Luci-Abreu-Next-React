@@ -18,6 +18,11 @@ const Body = styled.div`
   flex-direction: row;
   min-height: 100vh;
   padding-bottom: 0px;
+
+  @media (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+  }
   `
 
 const LeftSide = styled.div`
@@ -27,6 +32,13 @@ const LeftSide = styled.div`
   color: aliceblue;
   padding: 5% 2% 10% 2%;
   font-size: 21px;
+
+  @media (max-width: 767px) {
+    width: 100%;
+    height: auto;
+    padding: 0% 8% 0% 8%;
+    font-size: 21px;
+  }
   
 `
 
@@ -35,17 +47,21 @@ const RightSide = styled.div`
   background: rgb(202, 194, 194);
   color:black;
   padding: 3% 0 0 3%;
-  
+
+  @media (max-width: 767px) {
+    width: 100%;
+    height: auto;
+    padding: 0% 8% 0% 8%;
+    font-size: 21px;
+  }  
 `
 
 const Footer = styled.div`
   padding: 0;
   text-align: center;
-  margin-top: auto;
   height: 30px;
   background-color: #333;
   color: #f2f2f2;
-  padding:0;
 
 .p-footer{
   padding: 0;
@@ -123,6 +139,9 @@ font-weight: bold;
       border-style: inset;
       border-width: 1px;
 `
+
+/* -----------------------------------------------------------------------*/
+
 
 
 export {
