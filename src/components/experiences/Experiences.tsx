@@ -1,24 +1,30 @@
-function Experiences(){
-  return (
-<div>
-<img src="/src/assets/gifs/social-media.gif" className="social-media" alt="Imagem ilustrativa de um arquivo"/>
-  <p className="p-perfil-Work">EXPERIÊNCIAS</p>
-  <span className="linha-horizontal"></span>
+import { ContainerComponent, ImageContainer, HorizontalLine } from "@/styles/styles"
+import Image from 'next/image'
 
-  <div className="experience">
+function Experiences() {
+  return (
+    <ContainerComponent>
+      <ImageContainer>
+        <Image src="/images/gifs/social-media.gif" className="image-container-Right" width={0} height={0} alt={"imagem-ilustrativa"} />
+        <p className="p-subtitle">EXPERIÊNCIAS</p>
+        <HorizontalLine />
+      </ImageContainer>
+
+
+      <div className="experience">
         <h3 className="post-title">ACT Digital </h3>
         <p>Período: 06/12/2021 até 29/08/2022</p>
         <p>Função: Desenvolvedora JR</p>
         <p>Atuação: Home office</p>
         <p>
           Atividades:
-          Durante essa experiência, tive a oportunidade de aprimorar layouts, dar atenção aos detalhes de posicionamento 
-          de ícones e espaçamentos, realizar ajustes personalizados conforme as so-licitações da equipe de design ui/ux. 
+          Durante essa experiência, tive a oportunidade de aprimorar layouts, dar atenção aos detalhes de posicionamento
+          de ícones e espaçamentos, realizar ajustes personalizados conforme as so-licitações da equipe de design ui/ux.
           Além disso, desenvolvemos alguns campos de busca personalizados e definimos regras correspondentes para o funcionamento dos mesmos.
         </p>
       </div>
 
-     
+
       <div className="experience">
         <h3 className="post-title">Coletivo Codivas </h3>
         <p>Período: 01/03/2020 até 01/12/2021</p>
@@ -26,16 +32,16 @@ function Experiences(){
         <p>Atuação: Home office</p>
         <p>
           Atividades:
-          Oferecíamos serviços de desenvolvimento de websites conforme as linguagens solicitadas pelos clientes, realizávamos 
-          também o desenvolvimento de Landing Pages, criávamos alguns sites com Word-Press, além do desenvolvimento de campos 
-          específicos ou seções personalizadas dentro do site. Também realizávamos ajustes gerais em projetos já existentes. 
-          Além disso, oferecíamos serviços de hospedagem e manutenção, possibilitando colocar o seu site na nuvem. Eu, auxiliava 
-          também no processo de análise de requisitos. Por meio de entrevistas e análise de documentos, coletávamos e 
+          Oferecíamos serviços de desenvolvimento de websites conforme as linguagens solicitadas pelos clientes, realizávamos
+          também o desenvolvimento de Landing Pages, criávamos alguns sites com Word-Press, além do desenvolvimento de campos
+          específicos ou seções personalizadas dentro do site. Também realizávamos ajustes gerais em projetos já existentes.
+          Além disso, oferecíamos serviços de hospedagem e manutenção, possibilitando colocar o seu site na nuvem. Eu, auxiliava
+          também no processo de análise de requisitos. Por meio de entrevistas e análise de documentos, coletávamos e
           documentávamos as necessida-des dos clientes pra melhor apresentar soluções para seus problemas.
         </p>
       </div>
 
-    
+
 
       <div className="experience">
         <h3 className="post-title">WeService Serviços e Tecnologia LTDA / Logicalis / Job Center </h3>
@@ -44,16 +50,16 @@ function Experiences(){
         <p>Atuação: Presencial</p>
         <p>
           Atividades:
-          Eu desempenhava o papel de auxiliar os técnicos de rede, trabalhando em chamados e acompanhando as demandas 
-          para definir as prioridades com base em sua criticidade. Além disso, eu era responsável pela criação e gerenciamento 
-          de Dashboards que exibiam indicadores de desempenho e informações sobre os tickets na plataforma ServiceNow da empresa. 
-          Esses Dashboards permitiam uma visão clara e organizada das métricas e do status dos chamados, contribuindo para a tomada 
+          Eu desempenhava o papel de auxiliar os técnicos de rede, trabalhando em chamados e acompanhando as demandas
+          para definir as prioridades com base em sua criticidade. Além disso, eu era responsável pela criação e gerenciamento
+          de Dashboards que exibiam indicadores de desempenho e informações sobre os tickets na plataforma ServiceNow da empresa.
+          Esses Dashboards permitiam uma visão clara e organizada das métricas e do status dos chamados, contribuindo para a tomada
           de decisões efetivas e o monitoramento eficiente das atividades.
         </p>
       </div>
 
 
-        <div className="experience">
+      <div className="experience">
         <h3 className="post-title">Flex Contact Center </h3>
         <p>Período: 18/06/2018 até 28/04/2019</p>
         <p>Função: Analista de M.I.S</p>
@@ -67,7 +73,7 @@ function Experiences(){
         </p>
       </div>
 
-  
+
       <div className="experience">
         <h3 className="post-title">Accenture do Brasil LTDA</h3>
         <p>Período: 01/06/2015 até 03/07/2017</p>
@@ -86,7 +92,7 @@ function Experiences(){
         </p>
       </div>
 
-</div>
+    </ContainerComponent>
   )
 }
 

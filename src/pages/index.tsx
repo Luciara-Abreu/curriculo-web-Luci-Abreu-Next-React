@@ -5,6 +5,7 @@ import Contacts from "@/components/contacts/Contacts"
 import Experiences from "@/components/experiences/Experiences";
 import Courses from "@/components/courses/Courses";
 import NameImage from "@/components/name-image/NameImage";
+import Projetos from "@/components/projetos/Projetos";
 import Footer from "@/components/footer/Footer";
 import { Body, Container, LeftSide, RightSide } from "@/styles/styles";
 
@@ -18,6 +19,7 @@ export default function Home() {
           <Profile />
           <Skills />
           <Contacts />
+          <Projetos />
         </LeftSide>
 
         <RightSide>

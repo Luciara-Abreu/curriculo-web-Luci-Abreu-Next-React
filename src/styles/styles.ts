@@ -70,8 +70,13 @@ const Footer = styled.div`
     transform: rotate(-10deg) scale(1.2);
 }
   .image-container{
-    width: 25%;
-    height: 25%;
+    width: 15%;
+    height: 15%;
+  }
+
+  .image-container-Right{
+    width: 9%;
+    height: 9%;
   }
   `
 
