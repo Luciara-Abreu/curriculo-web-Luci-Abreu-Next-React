@@ -8,12 +8,30 @@ padding: 3% 0 3% 0;
   font-size: 20px;
   font-weight: bold; 
 }
+
+@media (max-width: 767px) {
+  padding: 3% 0 10% 0;
+
+  .post-title{
+    font-size: 20px;
+    font-weight: bold; 
+  }
+  > p{
+  font-size: 15px;
+  font-weight: bold; 
+  margin: 0;
+}
+}
 `
 const Description = styled.div`
 width: 95%;
 padding-top: 2%;
-
 font-size: 20px;
+
+@media (max-width: 767px) {
+  padding-top: 5%;
+  font-size: 16px;
+}
 `
 
 const ExperienceLine = styled.div`
