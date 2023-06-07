@@ -18,8 +18,8 @@ align-items: center;
 }
 
 @media (max-width: 767px) {
-    width: 100%;
-    height: 5vh;
+    width: auto;
+    height: auto;
     margin-top: 3%;
     padding: 0% 8% 0% 8%;
 
