@@ -10,8 +10,7 @@ width: 95%;
 }
 
 .carousel-controls{
-  padding-top: 3%;
-  
+  padding-top: 3%;  
 
   .button {
   width: 10%;
@@ -29,6 +28,33 @@ width: 95%;
 
 .button:hover {
   background-color: #085e68; 
+  }
+}
+
+@media (max-width: 767px) {
+  width: auto;
+  height: auto;
+
+  .slide{
+  flex: 0 0 300px;
+}
+
+.carousel-controls{
+  padding-top: 3%;  
+
+  .button {
+  width: 32%;
+  margin: 2px;
+  background: #0a6d7a;
+  color: aliceblue;
+  font-size: 10px;
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out; 
+}
 }
 }
 
