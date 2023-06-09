@@ -1,8 +1,6 @@
 import { ContainerComponent, HorizontalLine, ImageContainer } from '@/styles/styles'
-import AgendaAniversariantes from '../agendaAniversariante/AgendaAniversariantes'
-import Calculadora3D from '../calculadora3D/Calculadora3D'
 import Image from 'next/image'
-import { ContainerProjetos } from './stayles'
+import { ContainerLinks, ContainerProjetos } from './stayles'
 
 
 function Projetos(){
@@ -10,13 +8,20 @@ function Projetos(){
     <ContainerComponent>
       <ImageContainer>
         <Image src="/images/gifs/steps.gif" className="image-container" alt="Imagem ilustrativa de um arquivo" width={0} height={0} />
-        <p className="p-subtitle">PROJETO</p>
+        <p className="p-subtitle">PROJETOS</p>
         <HorizontalLine />
       </ImageContainer>  
 
       <ContainerProjetos>
-      <AgendaAniversariantes/>  
-      <Calculadora3D />  
+      <ContainerLinks>
+          <Image src="/images/borboleta.png" className="In" alt="imagem LnkedIn" width={50} height={50} />
+          <a href="#" className="a-In" target="_blank">Agenda Aniversariantes</a>
+        </ContainerLinks>
+
+        <ContainerLinks>
+          <Image src="/images/borboleta.png" className="In" alt="imagem LnkedIn" width={50} height={50} />
+          <a href="#" className="a-In" target="_blank">Calculadora 3D</a>
+        </ContainerLinks>
       </ContainerProjetos>
 
     </ContainerComponent>
