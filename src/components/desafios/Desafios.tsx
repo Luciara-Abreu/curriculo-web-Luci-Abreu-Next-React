@@ -16,7 +16,7 @@ const Desafios: React.FC = () => {
       <ContainerDesafios>
         <ContainerLinks>
         <Borboleta />
-        <a href="https://jogo-da-porta-next.vercel.app/" className="a-projeto" target="_blank" rel="noopener noreferrer">Desafio Jogo da Porta</a>
+        <a href="https://jodo-da-porta-next.vercel.app/" className="a-projeto" target="_blank" rel="noopener noreferrer">Desafio Jogo da Porta</a>
         </ContainerLinks>
       </ContainerDesafios>
     </ContainerComponent>
