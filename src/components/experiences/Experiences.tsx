@@ -15,13 +15,17 @@ function Experiences() {
       <ContaierExperience>
         <h2 className="post-title">ACT Digital </h2>
         <p>Período: 06/12/2021 até 29/08/2022</p>
-        <p>Função: Desenvolvedora JR</p>
-        <p>Atuação: Home office</p>
+        <p>Função: Desenvolvedora Full Stack – focada em front-end</p>
+        <p>Atuação: Remoto</p>
         <Description>
           Atividades:
-          Durante essa experiência, tive a oportunidade de aprimorar layouts, dar atenção aos detalhes de posicionamento
-          de ícones e espaçamentos, realizar ajustes personalizados conforme as so-licitações da equipe de design ui/ux.
-          Além disso, desenvolvemos alguns campos de busca personalizados e definimos regras correspondentes para o funcionamento dos mesmos.
+▪ Realização de alinhamentos, reuniões diárias para apresentar as novas funcionalidades implementadas, discutir o progresso do trabalho e alinhar metas diárias.
+▪ Desenvolvimento de estilos responsivos para páginas utilizando Styled-components.
+▪ Implementação de novas funcionalidades, aprimoramento de componentes, seguindo padrões de clean
+code e os princípios SOLID, utilizando React Hooks e Typescript.
+▪ Realização de testes manuais abrangentes para verificar o funcionamento adequado da aplicação, identificar possíveis bugs, garantindo a qualidade e a estabilidade do software antes de disponibiliza-lo para uso.
+▪ Solicitações e revisão de código usando Azure. 
+
         </Description>
       </ContaierExperience>
 
@@ -31,15 +35,15 @@ function Experiences() {
         <h2 className="post-title">Coletivo Codivas </h2>
         <p>Período: 01/03/2020 até 01/12/2021</p>
         <p>Função: Desenvolvedora JR</p>
-        <p>Atuação: Home office</p>
+        <p>Atuação: Remoto</p>
         <Description>
           Atividades:
-          Oferecíamos serviços de desenvolvimento de websites conforme as linguagens solicitadas pelos clientes, realizávamos
-          também o desenvolvimento de Landing Pages, criávamos alguns sites com Word-Press, além do desenvolvimento de campos
-          específicos ou seções personalizadas dentro do site. Também realizávamos ajustes gerais em projetos já existentes.
-          Além disso, oferecíamos serviços de hospedagem e manutenção, possibilitando colocar o seu site na nuvem. Eu, auxiliava
-          também no processo de análise de requisitos. Por meio de entrevistas e análise de documentos, coletávamos e
-          documentávamos as necessida-des dos clientes pra melhor apresentar soluções para seus problemas.
+▪ Desenvolvimento de projetos E-commerces, landing pages e sites institucionais de acordo com design passados no figma.
+▪ Desenvolvimento de sites utilizando a plataforma Wordpress.
+▪ Manutenção de código legado em PHP, manutenção de hospedagem para site em cloud.
+▪ Realização de alinhamentos com os clientes para apresentar e discutir as novas funcionalidades implementadas, atendendo as suas solicitações especificas, para garantir o progresso e o sucesso dos projetos.
+▪ Acompanhamento de alinhamentos para desenvolvimento de sites. Liderança de squad para entrega de projeto semanal. 
+
         </Description>
       </ContaierExperience>
 
@@ -52,11 +56,13 @@ function Experiences() {
         <p>Atuação: Presencial</p>
         <Description>
           Atividades:
-          Eu desempenhava o papel de auxiliar os técnicos de rede, trabalhando em chamados e acompanhando as demandas
-          para definir as prioridades com base em sua criticidade. Além disso, eu era responsável pela criação e gerenciamento
-          de Dashboards que exibiam indicadores de desempenho e informações sobre os tickets na plataforma ServiceNow da empresa.
-          Esses Dashboards permitiam uma visão clara e organizada das métricas e do status dos chamados, contribuindo para a tomada
-          de decisões efetivas e o monitoramento eficiente das atividades.
+▪ Suporte de clientes via telefone e e-mail.
+▪ Abertura de chamados e classificação.
+▪ Ponto de contato e responsável por acompanhar os chamados relacionados ao suporte de redes e repassa-los
+aos técnicos.
+Meu papel era avaliar a criticidade de cada chamado e encaminha-los aos técnicos especializados dentro do
+prazo estabelecido pelo SLA (Acordo de Nível de Serviço). Garantia-se, assim, que os chamados fossem tratados de forma eficiente e que as soluções fossem implementadas pelos técnicos especializados. 
+
         </Description>
       </ContaierExperience>
 
@@ -69,10 +75,14 @@ function Experiences() {
         <p>Atuação: Presencial</p>
         <Description>
           Atividades:
-          Como Analista de Dados Estratégicos, minha principal responsabilidade era ser a mentora por trás da coleta,
-          análise e interpretação de dados, proporcionando informações valiosas e estratégicas para os gestores.
-          Eu mergulhava de cabeça na tarefa de coletar os dados necessários, garantindo sua limpeza e tratamento
-          meticuloso.
+▪ Extração e manipulação de dados D-1
+▪ Atualização de relatórios diários.
+▪ Criação de relatórios conforme a necessidade do cliente.
+▪ Manutenção de relatórios e formulas.
+Como Analista de Dados Estratégicos, minha principal responsabilidade era ser a mentora por trás da coleta,
+análise e interpretação de dados, proporcionando informações valiosas e estratégicas para os gestores. Eu
+mergulhava de cabeça na tarefa de coletar os dados necessários, garantindo sua limpeza e tratamento meticuloso. 
+
         </Description>
       </ContaierExperience>
 
@@ -85,14 +95,18 @@ function Experiences() {
         <p>Atuação: Presencial</p>
         <Description>
           Atividades:
-          Como Analista de Suporte N2, minha função era primordial no atendimento de chamados para identificar e
-          solucionar problemas técnicos e erros. Eu era responsável por responder a chamados ou tickets de suporte, investigando
-          minuciosamente os problemas relatados pelos usuários e buscando encontrar soluções eficazes.
-          Minha principal tarefa na empresa era baixar backlog analisando incidentes com possíveis erros de sistemas
-          ou de código, ajustar através de scripts e solucionar de forma efetiva estes incidentes.Dentro desse ambiente
-          ofereci soluções para otimizar as analises através de scripts dinâmicos montado em PL/SQL,também ofereci soluções de
-          controle e relatório de fluxo diário e mensal de (entrada e saída) por analista salvo em nuvem montado em Excel.
-          Foi uma boa troca de experiência e uma grande oportunidade de aprendizado para mim.
+▪ Atendimentos de chamados via ticket conforme criticidade e SLA.
+▪ Correção ou atualização de cadastro, cartões e cobrança.
+▪ Analise de dados, via consulta em PL/SQL na base de dados, aplicando correções via banco de dados.
+Como Analista de Suporte N2, minha função era primordial no atendimento de chamados para identificar e
+solucionar problemas técnicos e erros. Eu era responsável por responder a chamados ou tickets de suporte,
+investigando minuciosamente os problemas relatados pelos usuários e buscando encontrar soluções eficazes.
+Minha principal tarefa na empresa era baixar backlog analisando incidentes com possíveis erros de sistemas
+ou de código, ajustar através de scripts e solucionar de forma efetiva estes incidentes. Dentro desse ambiente
+ofereci soluções para otimizar as analises através de scripts dinâmicos montado em PL/SQL, também ofereci
+soluções de controle e relatório de fluxo diário e mensal de (entrada e saída) por analista salvo em nuvem
+montado em Excel. Foi uma boa troca de experiência e uma grande oportunidade de aprendizado para mim. 
+.
         </Description>
       </ContaierExperience>
 
