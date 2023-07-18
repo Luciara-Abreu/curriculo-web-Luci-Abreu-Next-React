@@ -23,6 +23,11 @@ function Projetos() {
           <Borboleta />
           <a href="#" className="a-projeto" target="_blank">Calculadora 3D</a>
         </ContainerLinks>
+
+        <ContainerLinks>
+          <Borboleta />
+          <a href="https://luci-portifolio.vercel.app/" className="a-projeto" target="_blank">Portfólio</a>
+        </ContainerLinks>
       </ContainerProjetos>
 
     </ContainerComponent>

@@ -23,8 +23,8 @@ function FormSendEmail() {
               <HR />
               <ContainerInitial data-aos="zoom-in-up" data-aos-duration="1000">
                 <div className="title-initial">
-                <p className="text-muted1">Tudo pronto para começar seu próximo</p>
-                <p className="text-muted1">projeto comigo?</p>
+                <p className="text-muted1">Tudo pronto para começar seu próximo </p>
+                <p className="text-muted1"> projeto comigo?</p>
                 </div>
                 <p className="text-muted2"> Entre em contato! </p>
               </ContainerInitial>
