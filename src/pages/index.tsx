@@ -8,12 +8,18 @@ import NameImage from "@/components/name-image/NameImage";
 import Projetos from "@/components/projetos/Projetos";
 import Desafios from "@/components/desafios/Desafios";
 import Footer from "@/components/footer/Footer";
-import { Body, Container, LeftSide, RightSide } from "@/styles/styles";
+import { Body, Container, ContainerData, ContainerForm, LeftSide, RightSide } from "@/styles/styles";
+import FormSendEmail from "@/components/form/form.send.mail";
+import { useState } from "react";
+import Agradecimento from "@/components/agradecimento";
 
+//Agradecimento
 export default function Home() {
+  
   return (
-    <Container>      
+    <Container>
       <Body>
+        <ContainerData>
         <LeftSide>
           <NameImage />
           <Graduation />
@@ -28,8 +34,13 @@ export default function Home() {
           <Experiences />
           <Courses />
         </RightSide>
-      </Body>
+        </ContainerData>
 
+        <ContainerForm>
+        <FormSendEmail />
+        </ContainerForm>
+        
+      </Body>
       <Footer />
     </Container>
   )

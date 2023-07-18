@@ -42,6 +42,30 @@ padding: 0;
 
 const Body = styled.div`
   width:100%;
+
+  @media (max-width: 767px) {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  `
+const ContainerForm = styled.div`
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: 767px) {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  `
+
+  const ContainerData = styled.div`
+    width:100%;
   display: flex;
   flex-direction: row;
   min-height: 100vh;
@@ -216,6 +240,8 @@ export {
   Container,
   ContainerComponent,
   Body,
+  ContainerForm,
+  ContainerData,
   LeftSide,
   RightSide,
   ImageContainer,
