@@ -9,7 +9,7 @@ const Container = styled.div`
 
   @media (max-width: 767px) {
     width: auto;
-    height: auto;
+    height: 90vh;
     background: blue;
   }
 `
