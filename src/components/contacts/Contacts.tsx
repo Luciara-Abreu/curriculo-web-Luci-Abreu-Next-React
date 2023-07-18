@@ -37,6 +37,12 @@ function Contacts() {
           <a href="https://www.linkedin.com/in/luciara-abreu/" className="a-In" target="_blank">LinkedIn Luci Abreu</a>
         </ContainerLinks>
 
+
+        <ContainerLinks>
+        <Image src="/images/contact.png" className="In" alt="imagem LnkedIn" width={90} height={60} />
+          <a className="a-In" href="cv/Lúci Abreu.pdf" target="_blank">Curriculum PDF </a>
+        </ContainerLinks>
+
       </ContainerSection>
     </ContainerComponent>
   )
