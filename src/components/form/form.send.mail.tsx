@@ -29,28 +29,27 @@ function FormSendEmail() {
                 <p className="text-muted2"> Entre em contato! </p>
               </ContainerInitial>
 
+              {/*<form action="https://api.staticforms.xyz/submit" method="post">*/}
               {/* Formulário de Contato */}
               <ContainerSectionForm data-aos="zoom-in-left">
-                <form action="https://api.staticforms.xyz/submit" method="post">
+              <form action="https://formsubmit.co/6022aec38f12017e7094cebed4e0c3bf" method="POST">
                   <div >
                     <label>Nome</label>
-                    <input type="text" name="name" className="form-control" placeholder="nome sobrenome" autoComplete="off" required />
+                    <input type="text" name="name" className="form-control" placeholder="nome sobrenome" autoComplete="on" required />
                   </div>
 
                   <div>
                     <label>Email</label>
-                    <input type="email" name="email" className="form-control" placeholder="nome@email.com" autoComplete="off" required />
+                    <input type="email" name="email" className="form-control" placeholder="nome@email.com" autoComplete="on" required />
                   </div>
 
                   <div>
                     <label >Mensagem</label>
-                    <textarea name="message" className="form-control" placeholder="Digite aqui..." style={{ height: "100px" }}></textarea>
+                    <textarea  name="textmessage" className="form-control" placeholder="Digite aqui..." style={{ height: "100px" }}></textarea>
                   </div>
                   <ContainerButton>
                     <button className="btnSubmit" type="submit">Enviar</button>
-                  </ContainerButton>
-
-                  <input type="hidden" name="accessKey" value="2a8244f5-73da-4c49-8631-cc6bf3c184fa" />
+                  </ContainerButton>              
                 </form>
               </ContainerSectionForm>
             </ContainerApresentation>
@@ -60,4 +59,6 @@ function FormSendEmail() {
 }
 
 export default FormSendEmail;
-//  <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/src/components/agradecimento/obrigado.tsx" />
+
+//<input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/src/obrigado.html" />
+// <input type="hidden" name="accessKey" value="2a8244f5-73da-4c49-8631-cc6bf3c184fa" />
