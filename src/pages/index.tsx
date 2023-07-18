@@ -10,15 +10,14 @@ import Desafios from "@/components/desafios/Desafios";
 import Footer from "@/components/footer/Footer";
 import { Body, Container, ContainerData, ContainerForm, LeftSide, RightSide } from "@/styles/styles";
 import FormSendEmail from "@/components/form/form.send.mail";
-import { useState } from "react";
-import Agradecimento from "@/components/agradecimento";
+
 
 //Agradecimento
 export default function Home() {
   
   return (
     <Container>
-      <Body>
+      <Body className="body">
         <ContainerData>
         <LeftSide>
           <NameImage />
@@ -36,7 +35,7 @@ export default function Home() {
         </RightSide>
         </ContainerData>
 
-        <ContainerForm>
+        <ContainerForm className="container-form">
         <FormSendEmail />
         </ContainerForm>
         

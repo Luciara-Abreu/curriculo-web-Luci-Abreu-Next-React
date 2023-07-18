@@ -32,19 +32,19 @@ width: 95%;
 }
 
 @media (max-width: 767px) {
-  width: auto;
+  width: 100%;
   height: auto;
 
   .slide{
-  flex: 0 0 300px;
+  flex: -1 0 0px;
 }
 
 .carousel-controls{
   padding-top: 3%;  
 
   .button {
-  width: 32%;
-  margin: 2px;
+  width: 40%;
+  margin: 19px;
   background: #0a6d7a;
   color: aliceblue;
   font-size: 10px;

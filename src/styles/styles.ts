@@ -50,6 +50,7 @@ const Body = styled.div`
     flex-direction: column;
   }
   `
+
 const ContainerForm = styled.div`
   width:100%;
   display: flex;
@@ -57,7 +58,7 @@ const ContainerForm = styled.div`
   align-items: center;
 
   @media (max-width: 767px) {
-    width: auto;
+    width: 116%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -72,7 +73,7 @@ const ContainerForm = styled.div`
   padding-bottom: 0px;
 
   @media (max-width: 767px) {
-    width: auto;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -88,7 +89,7 @@ const LeftSide = styled.div`
   font-size: 21px;
 
   @media (max-width: 767px) {
-    width: auto;
+    width: 100%;
     height: auto;
     padding: 0% 8% 0% 8%;
     font-size: 21px;
@@ -103,7 +104,7 @@ const RightSide = styled.div`
   padding: 3% 0 0 3%;
 
   @media (max-width: 767px) {
-    width: auto;
+    width: 100%;
     height: auto;
     padding: 0% 8% 0% 8%;
     font-size: 21px;

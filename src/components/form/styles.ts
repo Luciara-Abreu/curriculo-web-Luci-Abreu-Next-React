@@ -13,7 +13,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 background: #ffff;
-padding: 8dvh 0;
+padding: 14dvh 0 6dvh 0;
 
 `
 
@@ -42,6 +42,10 @@ const HR = styled.h2`
   margin-inline-start: auto;
   margin-inline-end: auto; 
   border-top: 2px solid #0a6d7a;
+
+  @media (max-width: 768px) {
+    width: 18%;
+  }
   `
 
 const ContainerInitial = styled.div`
@@ -72,6 +76,8 @@ margin:0;
   }
 
 @media (max-width: 768px) {
+  width: 100%;
+
 .title-initial{
   width: 100%;
   display: flex;
@@ -118,6 +124,7 @@ label {
     width: 100%;
     height: calc(1.5em + 0.75rem + 2px);
     padding: 0.375rem 0.75rem;
+    margin-bottom: 2%;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -132,6 +139,7 @@ label {
 @media (max-width: 768px) {
   .form-control {
     width: 93%;
+    margin-bottom: 10%;
   }
 }
 `
@@ -139,7 +147,8 @@ const ContainerButton = styled.div`
   display: flex;
   justify-content: center;
   margin: 1em;
-
+  padding-top: 10px;
+  
   .btnSubmit{
   width: 10%;
   font-family: var(--font-family-sans-serif);
@@ -157,6 +166,8 @@ const ContainerButton = styled.div`
 }
 
 @media (max-width: 768px) {
+  padding: 20px;
+
   .btnSubmit {
     width: 93%;
   }
