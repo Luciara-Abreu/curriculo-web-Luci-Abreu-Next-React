@@ -14,7 +14,6 @@ justify-content: center;
 align-items: center;
 background: #ffff;
 padding: 14dvh 0 6dvh 0;
-
 `
 
 const ContainerApresentation = styled.div`
@@ -73,7 +72,6 @@ padding-left: 4px;
 .title-initial{
   display: flex;
   justify-content: baseline;
-
   }
 
 @media (max-width: 768px) {
