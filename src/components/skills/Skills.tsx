@@ -138,7 +138,7 @@ function Skills() {
       </ContainerSkill>
 
       <ContainerSkill>
-        <Title>Sequepze</Title>
+        <Title>Sequelize</Title>
         <Skill>
           <Progress progress={40} ></Progress>
         </Skill>

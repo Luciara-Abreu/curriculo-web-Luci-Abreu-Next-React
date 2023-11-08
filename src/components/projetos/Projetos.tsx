@@ -14,15 +14,6 @@ function Projetos() {
       </ImageContainer>
 
       <ContainerProjetos>
-        <ContainerLinks>
-          <Borboleta />
-          <a href="#" className="a-projeto" target="_blank">Agenda Aniversariantes</a>
-        </ContainerLinks>
-
-        <ContainerLinks>
-          <Borboleta />
-          <a href="#" className="a-projeto" target="_blank">Calculadora 3D</a>
-        </ContainerLinks>
 
         <ContainerLinks>
           <Borboleta />
@@ -32,6 +23,11 @@ function Projetos() {
         <ContainerLinks>
           <Borboleta />
           <a href="https://form-contact-hook-form.vercel.app/" className="a-projeto" target="_blank">Formulário de contato</a>
+        </ContainerLinks>
+
+        <ContainerLinks>
+          <Borboleta />
+          <a href="https://jogo-da-forca-plum.vercel.app/" className="a-projeto" target="_blank">Jogo da Forca</a>
         </ContainerLinks>
 
       </ContainerProjetos>

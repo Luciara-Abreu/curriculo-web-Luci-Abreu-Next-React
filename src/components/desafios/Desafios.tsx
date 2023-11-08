@@ -18,6 +18,17 @@ const Desafios: React.FC = () => {
         <Borboleta />
         <a href="https://jodo-da-porta-next.vercel.app/" className="a-projeto" target="_blank" rel="noopener noreferrer">Desafio Jogo da Porta</a>
         </ContainerLinks>
+
+        <ContainerLinks>
+          <Borboleta />
+          <a href="#" className="a-projeto" target="_blank">Agenda Aniversariantes</a>
+        </ContainerLinks>
+
+        <ContainerLinks>
+          <Borboleta />
+          <a href="#" className="a-projeto" target="_blank">Calculadora 3D</a>
+        </ContainerLinks>
+        
       </ContainerDesafios>
     </ContainerComponent>
   );
